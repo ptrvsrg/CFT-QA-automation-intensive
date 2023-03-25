@@ -1,0 +1,10 @@
+<suite name="suite" parallel="classes" thread-count="4">
+    <test name="test" >
+        <classes>
+            <class name="autotests.get.FlyMethodTests"/>
+            <class name="autotests.get.SoundMethodTests"/>
+            <class name="autotests.get.SwimMethodTests"/>
+            <class name="autotests.post.PropertiesMethodTests"/>
+        </classes>
+    </test>
+</suite>
